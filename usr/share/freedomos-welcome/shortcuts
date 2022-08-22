@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd /mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/
+
+python3 shortcuts.py

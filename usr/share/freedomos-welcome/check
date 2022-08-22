@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+cd /mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/
+username=$(whoami)
+
+echo $username
+
+if [ $username = 'live' ]; then
+    python /mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/installmain.py
+
+else
+    python /mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/main.py
+
+fi
