@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>/mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/img/FreedomOS64x64.png</normaloff>/mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/img/FreedomOS64x64.png</iconset>
+    <normaloff>../../../../../../../../mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/img/FreedomOS64x64.png</normaloff>../../../../../../../../mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/img/FreedomOS64x64.png</iconset>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
@@ -78,7 +78,7 @@ color: white
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>/mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/img/FreedomOS-logos_white.png</pixmap>
+    <pixmap>../../../../../../../../mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/img/FreedomOS-logos_white.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

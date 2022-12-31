@@ -27,6 +27,7 @@ class WelcomeScreen(QDialog):
 
 
 
+
 ## Links
 
         self.github.clicked.connect(lambda:self.OpenW('https://github.com/freedomos'))
