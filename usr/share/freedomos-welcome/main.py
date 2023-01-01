@@ -67,7 +67,7 @@ class WelcomeScreen(QDialog):
         sb.Popen(["plasma-discover"], shell=True)
 
     def Shortcuts(self):
-        sb.Popen(["/home/frazer/Desktop/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/shortcuts"], shell=False)
+        sb.Popen(["/usr/share/freedomos-welcome/shortcuts"], shell=False)
 
 
     def SystemMonitor(self):
@@ -75,7 +75,7 @@ class WelcomeScreen(QDialog):
 
 
     def Tiling(self):
-        sb.Popen(["/mnt/Projects/FreedomOS/freedomos-welcome-dev/usr/share/freedomos-welcome/tile"], shell=True)
+        sb.Popen(["/usr/share/freedomos-welcome/tile"], shell=True)
 
     def Gpgfix(self):
         sb.Popen("gpgfix", shell=True)
